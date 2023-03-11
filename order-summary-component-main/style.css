@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    background: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display';
+}
+
+.container {
+    margin: 70px auto;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 17px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.topimage {
+    background-image: url("images/illustration-hero.svg");
+    width: 400px;
+    height: 220px;
+    border-radius: 17px 17px 0 0;
+}
+
+.text {
+    padding: 10px;
+}
+
+.plan {
+    height: 80px;
+    width: 350px;
+    margin: 0 auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.change {
+    font-weight: 700;
+}
+
+.change:hover {
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.buy {
+    background-color: blue;
+    color: #fff;
+    width: 300px;
+    height: 50px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cancel {
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.buy:hover {
+    background-color: #766cf1;
+}
+
+.cancel:hover {
+    color: #000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.buy > a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cancel > a:visited {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
