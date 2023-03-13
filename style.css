@@ -68,6 +68,11 @@ button:hover {
     font-weight: 700;
     border-radius: 10px;
     text-align: center;
+    border: transparent;
+}
+
+.buy a {
+    color: #fff;
 }
 
 .cancel {
