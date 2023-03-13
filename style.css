@@ -71,6 +71,10 @@ button:hover {
     border: transparent;
 }
 
+.buy a {
+    color: #fff;
+}
+
 .cancel {
     background-color: transparent;
     border: none;
